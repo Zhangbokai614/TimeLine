@@ -1,0 +1,12 @@
+@import '~antd/dist/antd.css';
+
+#head {
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 4px #457B9D;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
