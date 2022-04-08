@@ -10,7 +10,7 @@ function MessageBox(props) {
   const [messageList, setMessageList] = useState([]);
 
   useEffect(() => {
-    setMessageList(props.messageList);
+    setMessageList(props.messageList.sort((a, b) => { return new Date(a) < new Date(b) ? 1 : -1 }));
   });
 
   return (

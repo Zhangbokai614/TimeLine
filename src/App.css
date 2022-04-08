@@ -1,5 +1,9 @@
 @import '~antd/dist/antd.css';
 
+.App{
+  /* background-image:url('./asset/images/wallhaven-28xgd6.jpg'); */
+}
+
 #head {
   padding: 16px;
   justify-content: center;
